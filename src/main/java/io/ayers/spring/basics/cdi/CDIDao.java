@@ -15,4 +15,8 @@ public class CDIDao {
         return cdiConnection;
     }
 
+    public int getFirst() {
+        return cdiConnection.getData()[0];
+    }
+
 }

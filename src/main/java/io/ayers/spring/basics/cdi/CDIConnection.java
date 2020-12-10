@@ -7,4 +7,8 @@ import javax.inject.Singleton;
 @Singleton
 public class CDIConnection {
 
+    public int[] getData() {
+        return new int[] {5, 89, 100};
+    }
+
 }
